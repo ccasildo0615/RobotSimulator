@@ -30,13 +30,13 @@ namespace RobotSimulator
             switch (Facing)
             {
                 case Direction.NORTH:
-                    if (Y < 5)
+                    if (Y < 4)
                     {
                         Y++;
                     }
                     break;
                 case Direction.EAST:
-                    if (X < 5)
+                    if (X < 4)
                     {
                         X++;
                     }
